@@ -5,7 +5,7 @@ from openpyxl.workbook import Workbook
 
 
 print("Программа обрабатывает только xlsx файлы")
-direct=os.chdir(r"\\192.168.101.1\\альфа_метроник\\17_Проекты\\Обработка файлов")
+direct=os.chdir(r"\\path\\to\\file")
 list_directory = os.listdir(direct)
 print (list_directory)
 
